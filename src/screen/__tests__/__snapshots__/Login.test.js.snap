@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render the UI 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 20,
+        "marginBottom": 20,
+      }
+    }
+  >
+    Login user
+  </Text>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text>
+      User Name
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        {
+          "borderColor": "blue",
+          "borderWidth": 2,
+          "width": 350,
+        }
+      }
+      testID="input-email"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "column",
+        "marginTop": 10,
+      }
+    }
+  >
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        {
+          "borderColor": "blue",
+          "borderWidth": 2,
+          "width": 350,
+        }
+      }
+      testID="input-password"
+      value=""
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "green",
+        "height": 30,
+        "justifyContent": "center",
+        "marginTop": 20,
+        "opacity": 1,
+        "width": 120,
+      }
+    }
+    testID="login-button"
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+        }
+      }
+    >
+      Login
+    </Text>
+  </View>
+</View>
+`;
